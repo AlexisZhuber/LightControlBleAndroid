@@ -1,77 +1,77 @@
 # LightControl BLE Android
 
-¡Bienvenido(a) a **LightControl BLE Android**! Este proyecto es una aplicación para Android que permite **escanear**, **conectar** y **controlar** dispositivos Bluetooth Low Energy (BLE) con un enfoque especial en el envío de colores a través de un **color picker** y una **interfaz de matriz**.
+Welcome to **LightControl BLE Android**! This project is an Android application designed to **scan**, **connect**, and **control** Bluetooth Low Energy (BLE) devices, with a special focus on sending colors through a **color picker** and a **matrix** interface.
 
-## Características Principales
+## Key Features
 
-- **Escaneo de dispositivos BLE**: Encuentra dispositivos cercanos y muestra la información (nombre y dirección MAC).
-- **Conexión BLE estable**: Maneja la conexión y reconexión para asegurar una comunicación confiable.
-- **Envío de datos**: Transmite valores a un dispositivo BLE, por ejemplo, códigos de color (RGB) o patrones para una matriz de LEDs.
-- **Color Picker**: Selecciona colores mediante un panel HSV, barras de brillo y transparencia.
-- **Matrix View**: Envía colores a celdas individuales en una matriz LED, permitiendo crear diseños personalizados.
-- **Compatibilidad**: Funciona en Android 12 y versiones superiores (incluyendo Android 15).
+- **BLE Device Scanning**: Discover nearby devices and display their information (name and MAC address).
+- **Stable BLE Connection**: Manages connection and reconnection for reliable communication.
+- **Data Transmission**: Sends values to a BLE device, such as color codes (RGB) or patterns for an LED matrix.
+- **Color Picker**: Select colors using an HSV panel, brightness, and transparency sliders.
+- **Matrix View**: Send colors to individual cells in an LED matrix, allowing for custom patterns.
+- **Compatibility**: Works on Android 12 and above (including Android 15).
 
-## Requisitos
+## Requirements
 
-- **Android Studio** (Arctic Fox o superior).
-- **SDK de Android** configurado (al menos la versión 31 para Android 12).
-- **Dispositivo o emulador** con soporte BLE.  
-  *Nota*: Para pruebas reales, se recomienda un dispositivo físico con Bluetooth habilitado.
+- **Android Studio** (Arctic Fox or newer).
+- **Android SDK** configured (at least version 31 for Android 12).
+- **Device or Emulator** with BLE support.  
+  *Note*: For real testing, a physical device with Bluetooth enabled is recommended.
 
-## Configuración del Proyecto
+## Project Setup
 
-1. **Clona este repositorio**:
+1. **Clone this repository**:
    ```bash
-   git clone https://github.com/Usuario/LightControlBleAndroid.git
+   git clone https://github.com/Username/LightControlBleAndroid.git
    ```
-2. **Abre la carpeta** en Android Studio.
-3. **Verifica los permisos** en el archivo `AndroidManifest.xml` y el código de solicitud de permisos en `MainActivity`.  
-   - Se necesitan permisos de ubicación y BLE para escanear y conectar en Android 12+.
+2. **Open** the folder in Android Studio.
+3. **Check permissions** in the `AndroidManifest.xml` file and in `MainActivity`:
+   - Location and BLE permissions are required to scan and connect on Android 12+.
 
-## Uso
+## Usage
 
-1. **Concede los permisos** necesarios cuando la app los solicite (BLE y ubicación).
-2. **Activa** el Bluetooth y, en caso de Android 12+, los servicios de ubicación.
-3. **Escanea** dispositivos BLE presionando el botón "Scan Devices".
-4. **Selecciona** el dispositivo “SmartBleDevice” (o el que corresponda) para conectar.
-5. **Explora** las vistas:
-   - **Color Picker**: Elige colores y envíalos al dispositivo BLE.
-   - **Matrix View**: Selecciona celdas para cambiar de color y crea patrones.
+1. **Grant permissions** when prompted (BLE and location).
+2. **Enable** Bluetooth and, for Android 12+, location services.
+3. **Scan** for BLE devices by tapping the "Scan Devices" button.
+4. **Select** your “SmartBleDevice” (or relevant device) to connect.
+5. **Explore** the views:
+   - **Color Picker**: Choose colors and send them to the BLE device.
+   - **Matrix View**: Select cells to change colors and create patterns.
 
-## Arquitectura
+## Architecture
 
 - **MVVM (Model-View-ViewModel)**:  
-  - **BleViewModel** gestiona la lógica de conexión y escaneo BLE.  
-  - **BleManager** interactúa directamente con la API de Bluetooth y expone flujos (StateFlow) para la UI.
-- **Jetpack Compose**: Interfaz de usuario declarativa y reactiva.
-- **Kotlin Coroutines**: Manejo de tareas asíncronas y reactividad de datos.
+  - **BleViewModel** manages BLE logic for scanning and connecting.  
+  - **BleManager** directly interfaces with the Bluetooth API and exposes StateFlows for the UI.
+- **Jetpack Compose**: Declarative and reactive user interface.
+- **Kotlin Coroutines**: Asynchronous tasks and reactive data handling.
 
-## Contribución
+## Contributing
 
-¡Las contribuciones son bienvenidas! Para contribuir:
+Contributions are welcome! To contribute:
 
-1. **Fork** este repositorio.
-2. Crea una rama con tus cambios:
+1. **Fork** this repository.
+2. Create a new branch for your changes:
    ```bash
-   git checkout -b feature/nueva-funcionalidad
+   git checkout -b feature/new-feature
    ```
-3. **Commitea** tus modificaciones:
+3. **Commit** your modifications:
    ```bash
-   git commit -m "Implementación de nueva funcionalidad"
+   git commit -m "Implement new feature"
    ```
-4. **Haz push** de tu rama y crea un **Pull Request**:
+4. **Push** your branch and open a **Pull Request**:
    ```bash
-   git push -u origin feature/nueva-funcionalidad
+   git push -u origin feature/new-feature
    ```
 
-## Licencia
+## License
 
-Este proyecto está disponible bajo la licencia [MIT](./LICENSE). Puedes usarlo libremente para proyectos personales y comerciales.
+This project is available under the [MIT License](./LICENSE). Feel free to use it for both personal and commercial projects.
 
-## Contacto
+## Contact
 
-Para dudas o sugerencias, puedes crear un [Issue](https://github.com/Usuario/LightControlBleAndroid/issues) o contactar al autor:
-- **Autor**: [Tu Nombre](https://github.com/Usuario)  
-- **Email**: tunombre@example.com
+For questions or suggestions, create an [Issue](https://github.com/AlexisZhuber/LightControlBleAndroid/issues) or reach out to the author:
+- **Author**: [Alexis Mora](https://github.com/AlexisMora)  
+- **Email**: alexismora602@gmail.com
 
-¡Gracias por visitar **LightControl BLE Android**! Esperamos que disfrutes creando efectos de iluminación con BLE. ¡Diviértete programando!
+Thank you for checking out **LightControl BLE Android**! We hope you enjoy creating lighting effects with BLE. Happy coding!
