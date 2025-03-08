@@ -2,6 +2,22 @@
 
 Welcome to **LightControl BLE Android**! This project is an Android application designed to **scan**, **connect**, and **control** Bluetooth Low Energy (BLE) devices, with a special focus on sending colors through a **color picker** and a **matrix** interface.
 
+## Screenshots
+
+Below is a quick visual overview of the app:
+
+1. **Home**  
+   ![Home Screen](./images/Home.jpg)
+
+2. **Color Picker View**  
+   ![Color Picker View](./images/ColorPickerView.jpg)
+
+3. **Matrix View**  
+   ![Matrix View](./images/MatrixView.jpg)
+
+4. **Contact View**  
+   ![Contact View](./images/ContactView.jpg)
+
 ## Key Features
 
 - **BLE Device Scanning**: Discover nearby devices and display their information (name and MAC address).
@@ -21,9 +37,9 @@ Welcome to **LightControl BLE Android**! This project is an Android application 
 ## Project Setup
 
 1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/Username/LightControlBleAndroid.git
-   ```
+   
+   git clone https://github.com/AlexisZhuber/LightControlBleAndroid.git
+
 2. **Open** the folder in Android Studio.
 3. **Check permissions** in the `AndroidManifest.xml` file and in `MainActivity`:
    - Location and BLE permissions are required to scan and connect on Android 12+.
@@ -37,10 +53,11 @@ Welcome to **LightControl BLE Android**! This project is an Android application 
 5. **Explore** the views:
    - **Color Picker**: Choose colors and send them to the BLE device.
    - **Matrix View**: Select cells to change colors and create patterns.
+   - **Contact**: View contact information or send a message via WhatsApp.
 
 ## Architecture
 
-- **MVVM (Model-View-ViewModel)**:  
+- **MVVM (Model-View-ViewModel)**  
   - **BleViewModel** manages BLE logic for scanning and connecting.  
   - **BleManager** directly interfaces with the Bluetooth API and exposes StateFlows for the UI.
 - **Jetpack Compose**: Declarative and reactive user interface.
@@ -52,17 +69,17 @@ Contributions are welcome! To contribute:
 
 1. **Fork** this repository.
 2. Create a new branch for your changes:
-   ```bash
+   
    git checkout -b feature/new-feature
-   ```
+   
 3. **Commit** your modifications:
-   ```bash
+   
    git commit -m "Implement new feature"
-   ```
+   
 4. **Push** your branch and open a **Pull Request**:
-   ```bash
+   
    git push -u origin feature/new-feature
-   ```
+   
 
 ## License
 
