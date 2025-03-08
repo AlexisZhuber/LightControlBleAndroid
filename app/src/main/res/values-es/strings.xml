@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LightControl</string>
+
+    <!-- Top bar title -->
+    <string name="contact_topbar_title">CONTACTO</string>
+
+    <!-- Headquarters -->
+    <string name="headquarters_text">Tengo presencia en</string>
+
+    <!-- Section Titles -->
+    <string name="contact_us_title">Contacto con Alexis Mora</string>
+    <string name="we_develop_title">Creamos tu proyecto personalizado</string>
+
+    <!-- Main Text (Part 1) -->
+    <string name="main_text_part_one">
+        ¡Hola! Soy Alexis Mora, Ingeniero en Mecatrónica con un diploma de 2 años en Programación de Computadoras obtenido en Toronto, Canadá, y más de 5 años de experiencia creando soluciones a la medida. Mi sitio web es alexismoraportal.com. Me apasiona impulsar la innovación a través de proyectos tecnológicos de vanguardia y las últimas herramientas de programación. Puedo ayudarte a convertir tus ideas en realidad y a potenciar tus habilidades en el apasionante mundo de la tecnología. Con amplia experiencia en proyectos informáticos personalizados, desde aplicaciones móviles hasta IoT, estoy preparado para enfrentar cualquier reto y ofrecer soluciones ajustadas a tus necesidades específicas.
+    </string>
+
+    <!-- Main Text (Part 2) -->
+    <string name="main_text_part_two">
+        Ya sea que busques desarrollar un proyecto a la medida o mejorar tus habilidades tecnológicas, con Alexis Moraa encontrarás las herramientas y el conocimiento necesarios para alcanzar tus objetivos. ¡Contáctame y comencemos a dar forma al futuro juntos!
+    </string>
+
+    <!-- Contact Card -->
+    <string name="contact_information_title">Información de contacto</string>
+    <string name="contact_information_email">Correo: alexismora602@gmail.com</string>
+    <string name="contact_information_phone">Llamadas y WhatsApp: +524424908282</string>
+
+    <!-- WhatsApp default message -->
+    <string name="whatsapp_message">¡Hola! Estoy interesado en el desarrollo de un proyecto.</string>
+
+</resources>

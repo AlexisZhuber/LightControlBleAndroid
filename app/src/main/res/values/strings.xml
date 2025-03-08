@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LightControl</string>
+
+    <!-- Top bar title -->
+    <string name="contact_topbar_title">CONTACT</string>
+
+    <!-- Headquarters -->
+    <string name="headquarters_text">I have a presence in</string>
+
+    <!-- Section Titles -->
+    <string name="contact_us_title">Contact us | Alexis Mora</string>
+    <string name="we_develop_title">We develop your customized project</string>
+
+    <!-- Main Text (Part 1) -->
+    <string name="main_text_part_one">
+        Hello! I am Alexis Mora, a Mechatronics Engineer with a 2-year Computer Programming diploma from Toronto, Canada, and over 5 years of experience creating custom solutions. My website is alexismoraportal.com. I am passionate about driving innovation through cutting-edge technology projects and the latest programming tools. I can help you turn your ideas into reality and enhance your skills in the exciting world of technology. With extensive experience in developing custom IT projects, from mobile applications to IoT, I am prepared to tackle any challenge and offer solutions tailored to your specific needs.
+    </string>
+
+    <!-- Main Text (Part 2) -->
+    <string name="main_text_part_two">
+        Whether you are looking to develop a customized project or improve your technological skills, with Alexis Mora you will find the tools and knowledge necessary to achieve your goals. Contact me and lets start shaping the future together!
+    </string>
+
+    <!-- Contact Card -->
+    <string name="contact_information_title">Contact Information</string>
+    <string name="contact_information_email">Email: alexismora602@gmail.com</string>
+    <string name="contact_information_phone">Calls and WhatsApp: +14375455632</string>
+
+    <!-- WhatsApp default message -->
+    <string name="whatsapp_message">Hello! I am interested in the development of a project!</string>
+
+
+</resources>
