@@ -7,16 +7,16 @@ Welcome to **LightControl BLE Android**! This project is an Android application 
 Below is a quick visual overview of the app:
 
 1. **Home**  
-   ![Home Screen](./images/Home.jpg)
+   ![Home Screen](./images/Home.jpeg)
 
 2. **Color Picker View**  
-   ![Color Picker View](./images/ColorPickerView.jpg)
+   ![Color Picker View](./images/ColorPickerView.jpeg)
 
 3. **Matrix View**  
-   ![Matrix View](./images/MatrixView.jpg)
+   ![Matrix View](./images/MatrixView.jpeg)
 
 4. **Contact View**  
-   ![Contact View](./images/ContactView.jpg)
+   ![Contact View](./images/ContactView.jpeg)
 
 ## Key Features
 
