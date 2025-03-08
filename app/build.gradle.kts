@@ -70,9 +70,6 @@ dependencies {
     //Lifecycle viewmodel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
-    //BLE
-    implementation("no.nordicsemi.android:ble-ktx:2.7.2")
-
     //Color picker package
     implementation("com.github.skydoves:colorpicker-compose:1.0.0")
 
